@@ -1,4 +1,4 @@
-import React from 'react';
+
 import LightImg from "../../assets/image_placeholder.png";
 
 const Products = () => {

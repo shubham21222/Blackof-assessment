@@ -1,4 +1,3 @@
-import React from 'react';
 import StreetLight from '../../ui/StreetLight';
 import Gateway from '../../ui/Gateway';
 import CloudSystem from '../../ui/CloudSystem';
@@ -121,11 +120,7 @@ const EcoSystem = () => {
                 </div>
             </div>
 
-            <style jsx>{`
-                .custom-shadow {
-                    box-shadow: 0px 4px 14px rgba(0, 0, 0, 0.1);
-                }
-            `}</style>
+          
         </>
     );
 };

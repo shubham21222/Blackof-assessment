@@ -1,4 +1,3 @@
-import HeroImage from "../../assets/Hero_section.png"; // Renamed import to avoid conflict
 
 const HeroSection = () => {
   return (
