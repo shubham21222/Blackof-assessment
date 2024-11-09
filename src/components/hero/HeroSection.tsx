@@ -6,7 +6,7 @@ const HeroSection = () => {
       <div className="overlay"></div> {/* Overlay div */}
 
       <p className="text-[24px] text-white text-center">Smart Lighting Solutions</p>
-      <h2 className="text-[48px] text-[#7f94a7] text-center">
+      <h2 className="md:text-[48px] sm:text-[36px]  text-[#7f94a7] text-center">
       Bringing a new perspective to street lights <div>and the cities of tomorrow.</div>
       </h2>
     </div>
