@@ -1,0 +1,88 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.container-main {
+  background-color: #000000;
+  filter: blur(10);
+  border-bottom: 1px solid #FFFFFF1A;
+  margin: 0 auto;
+  padding: 0 20px; /* Optional: Add padding for smaller screens */
+  background-color: #000000;
+  background-image: url(./assets/Hero_section.png);
+  background-position: center; /* Centers the image horizontally and vertically */
+  background-repeat: no-repeat; /* Prevents the image from repeating */
+  background-size: cover; /* Scales the image to cover the entire container */
+}
+
+
+.container {
+  max-width: 1356px;
+  margin: 0 auto;
+
+}
+
+
+.container-main-footer{
+  margin: 0 auto;
+  padding: 0 20px; /* Optional: Add padding for smaller screens */
+  background-color: #000000;
+  background-image: url(./assets/Footer.png);
+  background-position: center; /* Centers the image horizontally and vertically */
+  background-repeat: no-repeat; /* Prevents the image from repeating */
+  background-size: cover; /* Scales the image to cover the entire container */
+}
+
+
+.container-footer {
+  max-width: 1337px;
+  margin: 0 auto;
+}
+
+.conatanier-ecoSystem{
+  max-width: 1247px;
+  margin: 0 auto;
+  /* margin-top: 146px; */
+}
+
+
+.gradient-div {
+  background: linear-gradient(260.95deg, rgba(255, 255, 255, 0) 9.2%, #3661FF 122.1%);
+  width: 88px; /* Adjust width as needed */
+  height: 65px; /* Adjust height as needed */
+}
+
+
+.c {
+  box-shadow: 2.31px 2.88px 8.65px 0px rgba(206, 206, 206, 0.05);
+  border: 1.15px solid #3661FF;
+  border-radius: 19.3px;
+  padding: 1rem; /* Adjust as needed */
+}
+
+
+
+.custom-shadow {
+  box-shadow: 2.31px 2.88px 8.65px 0px rgba(206, 206, 206, 0.05);
+}
+
+/* Horizontal dotted line from Street Light Controller to Cloud-based Management System */
+.dotted-line-horizontal {
+  height: 2px;
+  width: 80%;
+  border-top: 2px dashed #3661FF;
+  position: absolute;
+  top: 50%;
+  left: 10%;
+}
+
+/* Vertical dotted line from Gateway to Users and Evaluation */
+.dotted-line-vertical {
+  width: 2px;
+  height: 100px;
+  border-left: 2px dashed #3661FF;
+  position: absolute;
+  top: 100%;
+  left: 50%;
+}
